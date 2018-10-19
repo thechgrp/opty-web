@@ -1,4 +1,12 @@
 {
+  "name": "optyweb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "pm-start": "pm2 start server.js",
+    "logs": "pm2 logs server",
+    "reload": "pm2 reload all"
+  },
   "dependencies": {
     "serve-handler": "^5.0.5"
   }
