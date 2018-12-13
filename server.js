@@ -1,6 +1,6 @@
 const handler = require('serve-handler')
 const http = require('http')
-const serveOptions = require('./lib/options')
+const serveOptions = require('./config/options')
 
 const PORT = process.env.PORT || 3001
 
